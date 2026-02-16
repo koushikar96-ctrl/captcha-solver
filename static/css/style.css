@@ -1,0 +1,55 @@
+/* Full page background overlay */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.overlay {
+    background: url("../images/bg.jpeg") no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    max-width: 400px;
+    width: 90%;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+input[type="file"] {
+    margin: 15px 0;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.result {
+    margin-top: 25px;
+    font-size: 20px;
+    color: #333;
+}
